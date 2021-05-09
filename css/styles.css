@@ -66,7 +66,7 @@ ul {
   font-style: normal;
 }
 
-.contacts-nav {
+.contacts-nav.head {
   display: flex;
   margin-left: auto;
 }
@@ -268,6 +268,7 @@ ul {
 
 .title {
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .team .section-title {
@@ -309,6 +310,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 /* ================END FOOTER================== */
 
 /* ================PORTFOLIO================== */
@@ -363,3 +365,5 @@ ul {
   line-height: 1.9;
 }
 /* ================END PORTFOLIO================== */
+
+/* ================TEST================== */
