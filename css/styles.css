@@ -1,0 +1,365 @@
+/* головний колір тексту #757575 */
+/* другорядний колыр тексту #212121 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+
+/* ================ROOT================== */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --button-color: #188ce8;
+  --button-color-portfolio: #f5f4fa;
+}
+/* ================END ROOT================== */
+
+/* ================COMPONENTS================== */
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.section {
+  /* padding-top: 94px; */
+  padding-bottom: 94px;
+}
+
+.section.team {
+  padding-bottom: 94px;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+  /* background-color: tomato; */
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* header, footer */
+.address {
+  font-style: normal;
+}
+
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .cont {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-nav .cont:hover,
+.contacts-nav .cont:focus {
+  color: var(--accent-color);
+}
+
+/* What are we doing, our team */
+.section-title {
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* herro, portfolio */
+.button {
+  cursor: pointer;
+}
+/* ================END COMPONENTS================== */
+
+/* ================HEADER================== */
+.main-nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.logo {
+  margin-left: 0;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-span {
+  color: var(--accent-color);
+}
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+/* .header {
+  display: flex;
+} */
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:first-child {
+  margin-left: 93px;
+}
+
+.site-nav .item + .item,
+.contacts-nav .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .link {
+  /* margin-right: 50px; */
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  /* background-color: tomato; */
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link + .link {
+  margin-left: 50px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* ================END HEADER================== */
+
+/* ================HERO================== */
+.hero {
+  text-align: center;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+
+  color: var(--primary-white-color);
+  background-color: #2f303a; /*тимчасовий фон*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  /* width: 200px;
+  height: 50px; */
+  padding: 10px 32px;
+  border-radius: 4px;
+}
+
+.hero .button:hover,
+.heri .button:focus {
+  background-color: var(--button-color);
+}
+/* ================END HERO================== */
+
+/* ================SECTION OUR ADVANTAGES================== */
+.advantages {
+  display: flex;
+}
+
+.advantages .item {
+  width: 270px;
+}
+
+.advantages .item + .item {
+  margin-left: 30px;
+}
+
+.advantages .title {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* ================END SECTION OUR ADVANTAGES================== */
+
+/* ================WHAT ARE WE DOING================== */
+.what-we-do {
+  display: flex;
+}
+
+.what-we-do .item + .item {
+  margin-left: 30px;
+}
+/* ================END WHAT ARE WE DOING================== */
+
+/* ================OUR TEAM================== */
+.team {
+  display: flex;
+}
+
+.team .item + .item {
+  margin-left: 30px;
+}
+
+.team .title,
+.team .text {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.team .section-title {
+  padding-top: 94px;
+}
+
+.team .text {
+  color: var(--primary-text-color);
+  font-weight: normal;
+}
+/* ================END OUR TEAM================== */
+
+/* ================FOOTER================== */
+.footer {
+  background: #2f303a;
+}
+
+.footer .logo {
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.footer .address {
+  padding-bottom: 60px;
+}
+
+.map-google {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .cont {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ================END FOOTER================== */
+
+/* ================PORTFOLIO================== */
+.header.portfolio {
+  padding-bottom: 94px;
+}
+
+.section-filter .list {
+  padding-left: 0;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.section-filter .button {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--button-color-portfolio);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: inherit;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+.section-filter .button:hover,
+.section-filter .button:focus {
+  background-color: var(--accent-color);
+}
+
+.projects-list {
+  text-decoration: none;
+}
+
+.projects {
+  margin-top: 34px;
+}
+
+.projects-title {
+  padding-top: 20px;
+  padding-bottom: 4px;
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* ================END PORTFOLIO================== */
