@@ -318,13 +318,18 @@ ul {
   padding-bottom: 94px;
 }
 
-.section-filter .list {
+.filter-nav {
   padding-left: 0;
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
 }
 
-.section-filter .button {
+.filter-nav .item + .item {
+  margin-left: 8px;
+}
+
+.filter .button {
   font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--button-color-portfolio);
@@ -336,18 +341,23 @@ ul {
   border-radius: 4px;
 }
 
-.section-filter .button:hover,
-.section-filter .button:focus {
+.filter .button:hover,
+.filter .button:focus {
   background-color: var(--accent-color);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .projects-list {
   text-decoration: none;
 }
 
-.projects {
+/* .projects {
   margin-top: 34px;
-}
+} */
 
 .projects-title {
   padding-top: 20px;
