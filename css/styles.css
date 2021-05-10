@@ -52,7 +52,7 @@ ul {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
+  /* outline: 1px solid blue; */
   /* background-color: tomato; */
 }
 
@@ -320,8 +320,9 @@ ul {
 /* ================END FOOTER================== */
 
 /* ================PORTFOLIO================== */
-.header.portfolio {
-  padding-bottom: 94px;
+.filter {
+  padding-top: 94px;
+  /* background-color: red; */
 }
 
 .filter-nav {
