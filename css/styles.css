@@ -97,6 +97,7 @@ ul {
 /* herro, portfolio */
 .button {
   cursor: pointer;
+  border-style: none;
 }
 /* ================END COMPONENTS================== */
 
@@ -330,6 +331,8 @@ ul {
 }
 
 .filter .button {
+  padding: 6px 22px;
+  border-radius: 4px;
   font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--button-color-portfolio);
@@ -337,8 +340,6 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: inherit;
-  padding: 6px 22px;
-  border-radius: 4px;
 }
 
 .filter .button:hover,
