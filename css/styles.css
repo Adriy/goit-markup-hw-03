@@ -11,6 +11,7 @@
   --primary-white-color: #ffffff;
   --button-color: #188ce8;
   --button-color-portfolio: #f5f4fa;
+  --border-cards: #eeeeee;
 }
 /* ================END ROOT================== */
 
@@ -102,6 +103,10 @@ ul {
 /* ================END COMPONENTS================== */
 
 /* ================HEADER================== */
+.header {
+  border-bottom: 1px solid var(--border-cards);
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -358,6 +363,7 @@ ul {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-cards);
   /* outline: 2px solid red; */
   /* width: 370px;
   margin: 15px; варіант 2 */
@@ -380,8 +386,8 @@ ul {
 } */
 
 .projects-title {
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-top: 20px;
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
