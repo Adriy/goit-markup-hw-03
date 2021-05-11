@@ -39,7 +39,7 @@ ul {
 }
 
 .section {
-  /* padding-top: 94px; */
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -182,6 +182,11 @@ ul {
   text-align: center;
 }
 
+.hero.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .hero-text {
   margin-top: 0;
   margin-bottom: 0;
@@ -220,6 +225,10 @@ ul {
 /* ================SECTION OUR ADVANTAGES================== */
 .advantages {
   display: flex;
+}
+
+.value.section {
+  padding-bottom: 0;
 }
 
 .advantages .item {
@@ -277,9 +286,9 @@ ul {
   margin-top: 30px;
 }
 
-.team .section-title {
+/* .team .section-title {
   padding-top: 94px;
-}
+} */
 
 .team .text {
   color: var(--primary-text-color);
