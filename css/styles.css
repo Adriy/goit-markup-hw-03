@@ -179,11 +179,12 @@ ul {
 /* ================HERO================== */
 .hero {
   text-align: center;
+  background-color: #2f303a; /*тимчасовий фон*/
 }
 
 .hero.section {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-text {
@@ -192,7 +193,6 @@ ul {
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
-  background-color: #2f303a; /*тимчасовий фон*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -216,7 +216,7 @@ ul {
 }
 
 .hero .button:hover,
-.heri .button:focus {
+.hero .button:focus {
   background-color: var(--button-color);
 }
 /* ================END HERO================== */
