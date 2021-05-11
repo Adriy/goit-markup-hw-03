@@ -309,15 +309,19 @@ img {
   background: #2f303a;
 }
 
-.footer .logo {
-  display: inline-block;
+.footer .container {
+  padding-bottom: 60px;
   padding-top: 60px;
-  margin-bottom: 20px;
-  margin-top: 0;
 }
 
-.footer .address {
-  padding-bottom: 60px;
+.footer .logo {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.map {
+  margin-bottom: 9px;
 }
 
 .map-google {
@@ -332,6 +336,11 @@ img {
   font-weight: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer .cont.mail {
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 /* ================END FOOTER================== */
